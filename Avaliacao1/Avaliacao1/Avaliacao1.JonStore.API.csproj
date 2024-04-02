@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentResults" Version="3.15.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.28" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avaliacao1.JonStore.Service\Avaliacao1.JonStore.Service.csproj" />
+  </ItemGroup>
+
+</Project>

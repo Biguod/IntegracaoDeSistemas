@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentResults" Version="3.15.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avaliacao1.JonStore.Domain\Avaliacao1.JonStore.Domain.csproj" />
+    <ProjectReference Include="..\Avaliacao1.JonStore.Repository\Avaliacao1.JonStore.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
